@@ -1,0 +1,13 @@
+{
+    "name": "buildpulse/example-phpunit",
+    "description": "An example PHPUnit project to demonstrate connecting to BuildPulse for flaky test detection",
+    "license": "MIT",
+    "type": "project",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": { "": "src/" }
+    }
+}
